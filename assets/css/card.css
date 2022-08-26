@@ -1,0 +1,101 @@
+.card {
+   display: flex;
+   column-gap: 12px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border: 1px solid #000;
+   border-radius: 10px;
+   padding: 1rem;
+   max-width: 380px;
+   max-height: 295px;
+   margin: 2rem auto 0;
+}
+
+.card__description {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   row-gap: 2rem;
+}
+
+.description {
+   display: flex;
+   flex-direction: column;
+   row-gap: 9px;
+   line-height: 21px;
+}
+
+.description > h3 {
+   color: var(--title-color);
+   font-weight: 700;
+}
+
+.description > h2 {
+   color: var(--bg-color-degrade_one);
+}
+
+.description > p {
+   font-size: 14px;
+}
+
+.card__buttons {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 3px;
+}
+
+.card__buttons > button {
+   padding: 0;
+   margin-bottom: 5px;
+}
+
+button::before {
+   font-size: 27px;
+}
+
+.container__btn_img {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card__img {
+   max-width: 188px;
+   max-height: 188px;
+   border-radius: 5px;
+}
+
+.btn__saiba_mais {
+   margin-top: 1rem;
+}
+
+.btn__orange {
+   background-color: var(--title-color);
+   color: #fff;
+   padding: 12px 16px;
+   font-size: 1rem;
+   font-weight: 700;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.description__stars:before {
+   content: url("../img/icons/stars.png")
+}
+
+@media screen and (min-width: 1024px) {
+
+   .card {
+      max-width: 588px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+
+   .card {
+      max-width: 588px;
+      margin: 2rem 1rem 0;
+   }
+}

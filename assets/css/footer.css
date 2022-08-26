@@ -1,0 +1,132 @@
+.footer {
+   background: #F9F9F9;
+   min-height: 65px;
+   border-top: 1px solid #002F52;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__title {
+   font-weight: 400;
+   margin-left: 24px;
+}
+
+.container__list {
+   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+   .footer {
+      padding: 55px 0;
+      align-items: flex-start;
+      justify-content: space-around;
+   }
+
+   .footer__title {
+      margin: 0;
+      font-size: 24px;
+   }
+
+   .container__list {
+      display: block;
+      font-size: 14px;
+      display: flex;
+      column-gap: 100px;
+   }
+
+   .footer__nav {
+   }
+
+   .footer__nav_title {
+      color: #858585;
+      margin-bottom: 2rem;
+   }
+
+   .nav__list > li {
+      color: #474646;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      column-gap: 1rem;
+   }
+
+         /*EDUCAÇÃO*/
+
+   .caelum::before {
+      content: url(../img/icons/education/caelum.png);
+   }
+
+   .cdc::before {
+      content: url(../img/icons/education/casadocodigo.png);
+   }
+
+
+         /*EDUCAÇÃO ONLINE*/
+
+   .alura::before {
+      content: url(../img/icons/education_online/alura.png);
+   }
+
+   .alura__pe::before {
+      content: url(../img/icons/education_online/aluraempresas.png);
+   }
+
+   .alura__latam::before {
+      content: url(../img/icons/education_online/aluralatam.png);
+   }
+
+   .alura__start::before {
+      content: url(../img/icons/education_online/alurastart.png);
+   }
+
+   .musicdot::before {
+      content: url(../img/icons/education_online/musicdot.png);
+   }
+
+   .alura__lingua::before {
+      content: url(../img/icons/education_online/aluralingua.png);
+   }
+
+   .pm3::before {
+      content: url(../img/icons/education_online/pm3.png);
+   }
+
+
+         /*COMUNIDADE*/
+
+   .hipster__tech::before {
+      content: url(../img/icons/comunity/hipsterstech.png);
+   }
+
+   .scuba__dev::before {
+      content: url(../img/icons/comunity/scuba.png);
+   }
+
+   .layers::before {
+      content: url(../img/icons/comunity/layers.png);
+   }
+
+   .like__boss::before {
+      content: url(../img/icons/comunity/likeaboss.png);
+   }
+
+   .carreira__fronteira::before {
+      content: url(../img/icons/comunity/carreirasemfronteira.png);
+   }
+
+   .hipster__jobs::before {
+      content: url(../img/icons/comunity/hipstersjobs.png);
+   }
+
+   .guj::before {
+      content: url(../img/icons/comunity/guj.png);
+   }
+}
+
+@media screen and (min-width: 1728px) {
+   .footer__nav {
+      border-left: 1px solid #858585;
+      padding-left: 1rem;
+   }
+}

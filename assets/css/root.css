@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./carrossel.css);
+@import url(./card.css);
+@import url(./topics.css);
+@import url(./contact.css);
+@import url(./footer.css);
+
+:root {
+   --bg-color-degrade_one: #002F52;
+   --bg-color-degrade_two: #326589;
+   --bg-color: #EBECEE;
+   --subtitle-card-color: #002F52;
+   --title-color: #EB9B00;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: #FFF;
+}
+
+section:not(.section__menu_active, .banner) {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+h2 {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+button {
+   border: none;
+   background: transparent;
+   font-family: inherit;
+   font-size: inherit;
+   cursor: pointer;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
